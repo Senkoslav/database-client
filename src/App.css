@@ -1,0 +1,82 @@
+/* App.css */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="datetime-local"],
+input[type="number"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0;
+}
+
+th, td {
+  padding: 0.8rem;
+  text-align: left;
+  border: 1px solid #ddd;
+  color: #007bff;
+}
+
+th {
+  background-color: #007bff;
+  color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #e2e2e2;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  input[type="text"],
+  input[type="date"],
+  input[type="datetime-local"],
+  input[type="number"],
+  button {
+    font-size: 14px;
+  }
+
+  th, td {
+    font-size: 14px;
+    padding: 0.5rem;
+  }
+}
